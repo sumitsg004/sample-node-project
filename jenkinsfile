@@ -1,0 +1,16 @@
+node {
+    // Checkout the code from GitHub
+    stage('Checkout') {
+        git 'https://github.com/sumitsg004/sample-node-project.git'
+    }
+
+    // Install Node.js dependencies
+    stage('Install Dependencies') {
+        sh 'npm install'
+    }
+
+    // Run Tests
+    stage('Run Tests') {
+        sh 'npm start'
+    }
+}

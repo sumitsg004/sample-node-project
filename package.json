@@ -1,0 +1,29 @@
+{
+    "name": "simple-node-project",
+    "version": "1.0.0",
+    "description": "A simple Node.js project for testing caching in Jenkins",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "lodash": "^4.17.21",
+      "axios": "^0.24.0",
+      "moment": "^2.29.1",
+      "bcrypt": "^5.0.1",
+      "chalk": "^5.0.0",
+      "debug": "^4.3.2",
+      "dotenv": "^10.0.0",
+      "jsonwebtoken": "^8.5.1",
+      "morgan": "^1.10.0",
+      "node-fetch": "^3.1.0",
+      "validator": "^13.6.0",
+      "winston": "^3.3.3",
+      "xml2js": "^0.4.23",
+      "uuid": "^8.3.2",
+      "request": "^2.88.2"
+    }
+  }
